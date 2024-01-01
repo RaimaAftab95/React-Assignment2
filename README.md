@@ -70,8 +70,8 @@ Description: Navbar component for navigation.
 Usage: Included in the layout for navigation.
 
 ## Pages
-Albums.js
-Description: Displays a list of albums.
+# Albums.js
+# Description: Displays a list of albums.
 Features:
 Fetches data from the Albums API.
 Clicking on an album redirects to the AlbumDetail page.

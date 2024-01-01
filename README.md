@@ -68,7 +68,8 @@ Posts: https://jsonplaceholder.typicode.com/posts (GET)
 MyNavbar.js
 Description: Navbar component for navigation.
 Usage: Included in the layout for navigation.
-Pages
+
+## Pages
 Albums.js
 Description: Displays a list of albums.
 Features:

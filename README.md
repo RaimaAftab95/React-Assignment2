@@ -63,3 +63,35 @@ react-albums-posts-app/
 Albums: https://jsonplaceholder.typicode.com/albums (GET)
 Album Photos: https://jsonplaceholder.typicode.com/photos?albumId=20 (GET)
 Posts: https://jsonplaceholder.typicode.com/posts (GET)
+
+## Components
+MyNavbar.js
+Description: Navbar component for navigation.
+Usage: Included in the layout for navigation.
+Pages
+Albums.js
+Description: Displays a list of albums.
+Features:
+Fetches data from the Albums API.
+Clicking on an album redirects to the AlbumDetail page.
+AlbumDetail.js
+Description: Displays details of a specific album.
+## Features:
+Fetches album-specific photos from the API.
+Posts.js
+Description: Displays a list of posts.
+Features:
+Fetches data from the Posts API.
+Clicking on a post redirects to the PostDetail page.
+PostDetail.js
+Description: Displays details of a specific post.
+NotFound.js
+Description: Displays a 404 Not Found page.
+## Routing
+/ - Albums page
+/posts - Posts page
+/albums/:id - AlbumDetail page
+/posts/:id - PostDetail page
+/* - NotFound page
+## UI Framework
+Reactstrap is used for styling the components.

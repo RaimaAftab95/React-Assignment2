@@ -51,3 +51,15 @@ react-albums-posts-app/
 |-- ...
 ```
 
+## Dependencies
+     React
+     React Router DOM
+     Reactstrap
+
+     Install additional dependencies using:
+       npm install react react-router-dom reactstrap
+
+## API Endpoints
+Albums: https://jsonplaceholder.typicode.com/albums (GET)
+Album Photos: https://jsonplaceholder.typicode.com/photos?albumId=20 (GET)
+Posts: https://jsonplaceholder.typicode.com/posts (GET)

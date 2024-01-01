@@ -20,3 +20,34 @@ This is a React application with two main pages: Albums and Posts. The app utili
 
    ```bash
    git clone [https://github.com/your-username/react-albums-posts-app.git](https://github.com/RaimaAftab95/React-Assignment2)https://github.com/RaimaAftab95/React-Assignment2
+
+## Navigate to the project directory: 
+   cd react-albums-posts-app
+   
+## Install dependencies:
+   npm install
+
+## Usage
+To start the development server, run:
+   npm start
+
+The app will be accessible at http://localhost:3000.
+
+## Folder Structure
+
+```
+react-albums-posts-app/
+|-- src/
+|   |-- Components/
+|   |   |-- MyNavbar.js
+|   |-- Pages/
+|   |   |-- Albums.js
+|   |   |-- AlbumDetail.js
+|   |   |-- Posts.js
+|   |   |-- PostDetail.js
+|   |   |-- NotFound.js
+|-- App.js
+|-- index.js
+|-- ...
+```
+

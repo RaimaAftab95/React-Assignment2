@@ -36,7 +36,7 @@ The app will be accessible at http://localhost:3000.
 ## Folder Structure
 
 ```
-react-albums-posts-app/
+react-task2/
 |-- src/
 |   |-- Components/
 |   |   |-- MyNavbar.js

@@ -40,7 +40,7 @@ export default function AlbumDetail() {
         setLoading(false);
         console.log(error);
       });
-  }, []);
+  }, [id]);
 
   return (
     // <div>

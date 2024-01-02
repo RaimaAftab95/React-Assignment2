@@ -49,7 +49,7 @@ export default function Posts() {
   return (
     // instead of div we wrap in container
     <Container>
-       <h3 className='mt-5'>Posts List</h3>
+      <h3 className="mt-5">Posts List</h3>
       <Row>
         <Accordion open={open} toggle={handleClick}>
           {postsList.map((item, index) => (
@@ -59,7 +59,7 @@ export default function Posts() {
               </AccordionHeader>
               <AccordionBody accordionId={`${item.id}`}>
                 {item.body}
-                <br/>
+                <br />
                 <Button
                   color="primary"
                   onClick={() => goToCommentsClick(item.id)}

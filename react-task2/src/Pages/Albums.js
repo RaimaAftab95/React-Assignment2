@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 import {
   Spinner,
   Card,
@@ -43,14 +43,22 @@ export default function Albums() {
   return (
     // instead of div we wrap in container
     <Container>
-      <h3 className='mt-5'>Albums List</h3>
+      <h3 className="mt-5">Albums List</h3>
       <Row>
         {albumsList.map((item, index) => (
           <Col key={`${index}`} className="bg-light border" xs="12" sm="4">
             {/* <Link to={`/albumDetails/${item.id}`}> */}
             <Card onClick={() => handleClick(item.id)}>
-              <img alt="Sample" src={`https://picsum.photos/300/20${index}`}   className="img-fluid"
-              style={{ maxHeight: '200px', width: '100%', objectFit: 'cover' }} />
+              <img
+                alt="Sample"
+                src={`https://picsum.photos/300/20${index}`}
+                className="img-fluid"
+                style={{
+                  maxHeight: "200px",
+                  width: "100%",
+                  objectFit: "cover",
+                }}
+              />
               <CardBody>
                 <CardTitle tag="h5">{item.title}</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">

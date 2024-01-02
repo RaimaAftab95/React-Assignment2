@@ -41,7 +41,7 @@ export default function PostDetail() {
         setLoading(false);
         console.log(error);
       });
-  }, []);
+  }, [id]);
 
   return (
     <Container>

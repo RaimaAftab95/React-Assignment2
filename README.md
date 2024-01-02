@@ -22,7 +22,7 @@ This is a React application with two main pages: Albums and Posts. The app utili
    git clone: [https://github.com/RaimaAftab95/React-Assignment2]
 
 ## Navigate to the project directory: 
-   cd react-albums-posts-app
+   cd react-task2
    
 ## Install dependencies:
    npm install

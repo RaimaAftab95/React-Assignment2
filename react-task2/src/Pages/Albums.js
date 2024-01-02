@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   Spinner,
   Card,
@@ -14,7 +14,6 @@ import {
 } from "reactstrap";
 
 export default function Albums() {
- 
   const navigate = useNavigate();
   const [albumsList, setAlbumsList] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -40,7 +39,6 @@ export default function Albums() {
   };
 
   return (
-   
     <Container>
       <h3 className="mt-5">Albums List</h3>
       <Row>
@@ -66,7 +64,7 @@ export default function Albums() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card‘s content.
                 </CardText>
-                <Button>Button</Button>
+                <Button color="primary">Button</Button>
               </CardBody>
             </Card>
           </Col>

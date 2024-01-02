@@ -11,7 +11,6 @@ import {
 } from "reactstrap";
 
 export default function PostDetail() {
-
   const { id } = useParams();
   const [loading, setLoading] = useState(false);
   const [commentsList, setCommentsList] = useState([]);

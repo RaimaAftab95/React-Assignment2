@@ -14,7 +14,6 @@ import {
 } from "reactstrap";
 
 export default function AlbumDetail() {
-
   const { id } = useParams();
   const [loading, setLoading] = useState(false);
   const [photoList, setphotoList] = useState([]);
@@ -52,7 +51,7 @@ export default function AlbumDetail() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card‘s content.
                 </CardText>
-                <Button>Button</Button>
+                <Button color="primary">Click me</Button>
               </CardBody>
             </Card>
           </Col>

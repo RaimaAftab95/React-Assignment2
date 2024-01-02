@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 
 export default function Posts() {
-  // hook to nevigate dont need to destructure we can call it directly
+  
   const navigate = useNavigate();
   const [postsList, setPostsList] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -47,7 +47,7 @@ export default function Posts() {
   };
 
   return (
-    // instead of div we wrap in container
+    
     <Container>
       <h3 className="mt-5">Posts List</h3>
       <Row>

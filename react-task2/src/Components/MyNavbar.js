@@ -16,7 +16,6 @@ export default function MyNavbar() {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
-      {/* <Navbar {...args}> */}
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">Albums</NavbarBrand>
         <NavbarToggler onClick={toggle} />

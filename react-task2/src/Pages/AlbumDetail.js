@@ -14,13 +14,9 @@ import {
 } from "reactstrap";
 
 export default function AlbumDetail() {
-  // use hook useParams to get url id as param it may have more than one param
-  // const obj = useParams();
-  //console.log("obj",obj);
 
   const { id } = useParams();
   const [loading, setLoading] = useState(false);
-  // const navigate = useNavigate();
   const [photoList, setphotoList] = useState([]);
 
   useEffect(() => {
@@ -29,10 +25,7 @@ export default function AlbumDetail() {
       .then((data) => data.json())
       .then((data) => {
         console.log("data=>", data);
-        // in above console we can see the clicked image id data
-
         setLoading(false);
-        // setAlbumsList(data);
         setphotoList(data);
         console.log("data", data);
       })
@@ -43,11 +36,6 @@ export default function AlbumDetail() {
   }, [id]);
 
   return (
-    // <div>
-    //   {loading ? <Spinner color="primary">Loading...</Spinner> : null}
-    //   <h1>AlbumDetail</h1>
-    // </div>
-    // instead of div we wrap in container
     <Container>
       <h3>Albums Details</h3>
       <Row>

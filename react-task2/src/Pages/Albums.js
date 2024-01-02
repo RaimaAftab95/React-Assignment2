@@ -14,7 +14,7 @@ import {
 } from "reactstrap";
 
 export default function Albums() {
-  // hook to nevigate dont need to destructure we can call it directly
+ 
   const navigate = useNavigate();
   const [albumsList, setAlbumsList] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -36,18 +36,16 @@ export default function Albums() {
   }, []);
 
   const handleClick = (id) => {
-    //alert(id);
     navigate("/albumDetails/" + id);
   };
 
   return (
-    // instead of div we wrap in container
+   
     <Container>
       <h3 className="mt-5">Albums List</h3>
       <Row>
         {albumsList.map((item, index) => (
           <Col key={`${index}`} className="bg-light border" xs="12" sm="4">
-            {/* <Link to={`/albumDetails/${item.id}`}> */}
             <Card onClick={() => handleClick(item.id)}>
               <img
                 alt="Sample"
@@ -71,7 +69,6 @@ export default function Albums() {
                 <Button>Button</Button>
               </CardBody>
             </Card>
-            {/* </Link> */}
           </Col>
         ))}
       </Row>

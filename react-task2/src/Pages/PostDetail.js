@@ -11,7 +11,6 @@ import {
 } from "reactstrap";
 
 export default function PostDetail() {
-  // use hook useParams to get url id as param it may have more than one param
 
   const { id } = useParams();
   const [loading, setLoading] = useState(false);

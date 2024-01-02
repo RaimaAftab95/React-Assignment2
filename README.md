@@ -19,7 +19,7 @@ This is a React application with two main pages: Albums and Posts. The app utili
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/your-username/react-albums-posts-app.git](https://github.com/RaimaAftab95/React-Assignment2)https://github.com/RaimaAftab95/React-Assignment2
+   git clone: [https://github.com/RaimaAftab95/React-Assignment2]
 
 ## Navigate to the project directory: 
    cd react-albums-posts-app

@@ -36,7 +36,7 @@ export default function MyNavbar() {
               </Link>
             </NavItem>
           </Nav>
-          <NavbarText>React App</NavbarText>
+          <NavbarText>React Assignment2</NavbarText>
         </Collapse>
       </Navbar>
     </div>
